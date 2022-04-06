@@ -1,0 +1,53 @@
+body {
+  padding-top: 75px;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+              0 4px 8px 0 rgba(0,0,0,.05);
+}
+a {
+  text-decoration: none;
+}
+.icones {
+  height: 100px;
+}
+.pergunta {
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+
+}
+@media (max-width: 767px) {
+  body {
+padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+/*whatsapp button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.btn-footer {
+  max-width: 140px;
+  display: block;
+}
+/*Testemunials*/ 
